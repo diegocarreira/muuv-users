@@ -1,0 +1,55 @@
+div.users-list{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  .users-item{
+    min-width: 300px;
+    width: calc(33% - 16px);
+    min-height: 220px;
+    max-height: 330px;
+    overflow: auto;
+    padding: 10px;
+    margin: 4px;
+    overflow: hidden;
+    border-radius: 10px;
+    background: #f0f0f0;
+    cursor: pointer;
+    line-break: anywhere;
+
+    img{
+      min-width: 48px;
+      min-height: 48px;
+      max-width: 128px;
+      max-height: 128px;
+      border-radius: 100%;
+      display: block;
+      margin: auto;
+    }
+
+    span{
+      display: block;
+      margin: auto;
+      text-align: center;
+      margin-top: 5px;
+    }
+    .name{
+      font-weight: bold;
+      color: var(--brand2);
+    }
+    .email{
+      color: #666;
+    }
+  }
+
+
+ .empty{
+    color: #666;
+    text-align: center;
+    display: block;
+ }
+}
