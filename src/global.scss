@@ -6,6 +6,26 @@ html, body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+*{
   box-sizing: border-box;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
 
+h2{
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  text-indent: 4px;
+  margin: 10px 0px;
+}
+
+ul,li {
+  list-style: none;
+}
+
+:root {
+  --brand1: #55aaff;
+  --brand2: #3784d1;
 }
