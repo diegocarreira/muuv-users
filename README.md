@@ -20,6 +20,10 @@ List of users in React consuming API (https://reqres.in/) to Muuv-Labs challenge
 
 ## Run project dev
 
+`yarn start` OR `npm run start`
+
+## Run project (build version)
+
 `yarn serve` OR `npm run serve`
 
 ---
