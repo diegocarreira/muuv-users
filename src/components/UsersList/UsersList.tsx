@@ -16,11 +16,6 @@ const UsersList = ({ users, handleClick }: UsersListProps) => {
 
   return (
     <div className='users-list'>
-      {/* <li className='list-header'>
-        <span>ID</span>
-        <span>Name</span>
-        <span>E-mail</span>
-      </li> */}
       {users.map((user: User) => {
         return (
           <div

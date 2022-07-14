@@ -16,7 +16,6 @@ const Users = () => {
   const ITEMS_PER_PAGE = 6;
 
   const getUsersApi = async (pageNumber: number = INITIAL_PAGE) => {
-    setLoading(true);
     try {
       const { data } = await Api.get(`users?page=${pageNumber}&per_page=${ITEMS_PER_PAGE}`);
       if (data?.data) {
