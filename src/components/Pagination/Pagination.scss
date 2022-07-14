@@ -1,0 +1,39 @@
+.pagination-container{
+  width: 100%;
+  height: auto;
+  min-height: 60px;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+
+  .title{
+    font-size: 0.9rem;
+    color: #aaa;
+  }
+  
+  .pagination-list{
+    height: auto;
+    min-height: 60px;
+    padding: 10px;
+  
+    li{
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      border-radius: 100%;
+      text-align: center;
+      display: inline-block;
+      cursor: pointer;
+      margin: 5px 5px 0px 0px;
+      background: var(--brand1);
+      color: #FFF;
+
+      &.active{
+        background: var(--brand2);
+        font-weight: bold;
+      }
+    }
+  }
+}
