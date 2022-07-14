@@ -1,0 +1,25 @@
+--- TO DO ---
+
+--- DONE ---
+1 - Prepare code base
+  1.1 - Folders structure
+  1.2 - Routes, axios and sass
+
+2 - Create users list
+  2.1 - Create list component
+  2.2 - Consume API and list
+  2.3 - Overlay and Loading until request is pending
+  2.4 - Pagination
+  2.6 - Unit tests
+
+3 - Create user details
+  3.1 - User details component
+  3.2 - Comsume api for specific user
+  3.3 - Tests
+  3.4 - General improvements
+
+4 - Header Menu and improvements
+  4.1 - header component
+  4.2 - General improvements
+  4.3 - Readme instructions and notes
+
