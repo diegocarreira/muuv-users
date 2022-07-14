@@ -1,0 +1,41 @@
+.user-details-container{
+  width: 100%;
+  min-height: calc(100vh - 47px); // FIXME 97 after header 50px
+  padding: 10px;
+  overflow: hidden;
+  border-radius: 10px;
+  background: #f0f0f0;
+
+  img{
+    max-width: 128px;
+    max-height: 128px;
+    border-radius: 100%;
+    display: block;
+    margin: auto;
+  }
+
+  span, a{
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 5px;
+    text-decoration: none;
+  }
+  .name{
+    font-weight: bold;
+    color: var(--brand2);
+    font-size: 20px;
+  }
+  .email{
+    font-weight: bold;
+  }
+  .email, .introduction{
+    color: #666;
+  }
+}
+
+.empty{
+  display: block;
+  text-align: center;
+  color: #888;
+}
